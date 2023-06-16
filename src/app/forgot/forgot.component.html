@@ -1,0 +1,13 @@
+<form>
+    <h1>Forgot Password?</h1>
+    <div>
+        <span class="p-float-label">
+            <input pInputText id="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" />
+            <label htmlFor="email">Email</label>
+        </span>
+    </div>
+
+    <div>
+        <p-button label="Send" (click)="forgot()"></p-button>
+   </div>
+</form>
