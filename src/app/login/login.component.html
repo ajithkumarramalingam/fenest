@@ -1,0 +1,28 @@
+<form>
+    <h1>Login-Account</h1>
+    <div>
+        <span class="p-float-label">
+            <input pInputText id="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" />
+            <label htmlFor="email">Email</label>
+        </span>
+    </div>
+
+    <div>
+        <span class="p-float-label">
+            <p-password [(ngModel)]="password" [feedback]="false" [toggleMask]="true" [ngModelOptions]="{standalone: true}"></p-password>
+            <label for="password">Password</label>
+        </span>
+    </div>
+
+    <div class="forgot">
+        <a href="forgot">forgotpassword</a>
+    </div>
+
+    <div>
+        <p-button class="btn" label="Login" (click)="login()"></p-button>
+   </div>
+
+   <div class="account">
+        <p>Already have an account?<a href="signup">signup</a></p>
+   </div>
+</form>

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.p-inputtext {
+    margin: 0;
+    width: 300px;
+}
+
+.account {
+    p {
+        text-align: center;
+        margin: -20px;
+    }
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    margin: -20px;
+}
